@@ -6,7 +6,8 @@ namespace Point
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Point a = new Point(0, 23, 45);
+            Console.WriteLine(a);
         }
     }
 }
